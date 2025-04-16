@@ -1,0 +1,408 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+*{
+    font-family: "Lexend Deca", sans-serif;
+    scroll-behavior: smooth;
+   
+}
+header{
+    padding: 10px;
+    display: flex;
+    top: 0;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(75, 75, 222);
+   
+    position: sticky;
+    z-index: 3;
+}
+#navs{
+    padding-left: 10em;
+}
+header h1{
+    padding-left: 1em;
+    color: white;
+}
+
+#navs a{
+    padding-left: 2em;
+    text-decoration: none;
+
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+#navs a:hover{
+    
+    transition: 0.4s ease;
+   font-size: 25px;
+}
+#navs li{
+    list-style-type: none;
+    display: inline;
+}
+
+.icons{
+    padding-left: 10em;
+    
+}
+#im{
+    width: 100%;
+   height: 100%;
+   background-position: center;
+}
+.banner{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+background-color: blue;
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+font-size:5em}
+.banner span{
+    color: black;
+}
+i{
+    padding-right: 2em;
+    font-size: 20px;
+    color:white;
+}
+i:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+#port{
+    display: flex;
+    width: 100%;
+    height: 430px;
+}
+#port:hover{
+    background-color: black;
+    color: white;
+}
+.port1 , .port2 {
+    width:50% ;
+    height: 100%;
+    padding: 2em;
+    
+}
+.port1 h3{
+    font-size: 40px;
+}
+.round:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+span{
+color:blue; 
+}
+span:hover{
+    font-style: italic;
+}
+.port1 p{
+    margin-top: 10px;
+    text-align: justify;
+   
+    
+}
+
+.port2{
+    display: flex;
+    padding-top: 80px;
+   
+    
+}
+.round{
+    margin: 0 auto;
+    width: 300px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    height: 300px;
+  
+    border-radius: 50%;
+    background-color:rgb(221, 160, 47);   ;
+}
+.round img{
+    width: 100%;
+    height: 100%;
+}
+#mypro{
+    width: 100%;
+    height: 1020px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.p1 , .p2 , .p3
+{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    
+    color: white;
+}
+.pros{
+    width: 250px;
+    height: 250px;
+    margin: 30px;
+    object-fit: cover;
+
+
+background: white;
+}
+.p1 p{
+    text-align: justify;
+    
+}
+.tex{
+    width: 30%;
+    padding-left: 100px;
+    width: 60%;
+    height: 250px;
+    font-weight: 600;
+   
+}
+.tex li{
+    padding-bottom: 10px;
+}
+.tex p{
+    text-align: justify;
+    font-size: 20px;
+}
+            
+.pros:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+.pros h2{
+    position: absolute;
+    color: white;
+    margin-top: 200px;
+    margin-left: 15px;
+    text-shadow: 3px 3px blue;
+   
+}
+.texts{
+    display: flex;
+}
+#text:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    font-style: italic;
+}
+#contact{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.box{
+    width: 60%;
+    height: 70%;
+    background-color: blue;
+    display: flex;
+    
+}
+.box:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.box1 , .box2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    width: 250px;
+    height: 3em;
+    margin: 10px; padding-left: 10px;
+    background-color: blue;
+    border: none;
+    border-bottom: 2px solid white;
+} 
+input::placeholder{
+    color: white;
+}
+button{
+    width: 150px;
+    height: 2.5em;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+   
+   
+    justify-content: center;
+    background-color:white;
+    color: blue;
+    border: none;
+}
+#navs button{
+    width: 200px;
+    height: 30px;
+}
+/* From Uiverse.io by gharsh11032000 */ 
+#navs button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 16px 36px;
+    border: 4px solid;
+    border-color: transparent;
+    font-size: 16px;
+    background-color: inherit;
+    border-radius: 100px;
+    font-weight: 600;
+    color: greenyellow;
+    box-shadow: 0 0 0 2px greenyellow;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  #navs button svg {
+    position: absolute;
+    width: 24px;
+    fill: greenyellow;
+    z-index: 9;
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  #navs button.arr-1 {
+    right: 16px;
+  }
+  
+  #navs .buttonarr-2 {
+    left: -25%;
+  }
+  
+  #navs button .circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  #navs button .text {
+    position: relative;
+    z-index: 1;
+    transform: translateX(-12px);
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  #navs button :hover {
+    box-shadow: 0 0 0 12px transparent;
+    color: #212121;
+    border-radius: 12px;
+  }
+  
+  #navs button:hover .arr-1 {
+    right: -25%;
+  }
+  
+  #navs button:hover .arr-2 {
+    left: 16px;
+  }
+  
+  #navs button :hover .text {
+    transform: translateX(12px);
+  }
+  
+  #navs button:hover svg {
+    fill: #212121;
+  }
+  
+  #navs button:active {
+    scale: 0.95;
+    box-shadow: 0 0 0 4px greenyellow;
+  }
+  
+   #b:hover.circle {
+    width: 220px;
+    height: 220px;
+    opacity: 1;
+  }
+  img:hover{
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  }
+  
+button i{
+    color: blue;
+}
+.box2{
+    color: white;
+}
+.log{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
